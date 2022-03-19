@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIAM</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="slider1.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/712575d4a5.js" crossorigin="anonymous"></script>
+    <script src="botonmenu.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" >
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header><div class="logo"> <img src="logopng.png" alt="">
+    </div>
+    </header>
+    
+
+    <div class="DIVMENU">
+        <nav class="barra_navegacion">
+          
+            <div class="menu_contenedor">
+                <ul class="menu" >
+                   <li><a href="#">Inicio</a></li>
+                   <li><a href="#actividades"> Actividades</a>
+                   </li>
+                   <li><a href="#aboutus"> Sobre Siam</a></li>
+                   <li> <a href="tienda.html"> Tienda</a></li>
+               </ul>
+               <!-- <span class="btn_menu">
+                <i class="fa fa-bars"></i>
+            </span> -->
+           </div>
+          </nav>
+    </div>
+
+<section class="sec_activities">
+    <div class="activities">
+        <figure class="pie">
+            <img id="foto" src="/GRAFICAS/musculacion.png" alt="">
+            <figcaption class="pie_img" type="button" onclick="miFuncion()">Ver horarios</figcaption>
+        </figure>
+    </div>
+    <div class="activities">
+    <figure class="pie">
+        <img id="foto2" src="/GRAFICAS/muaythai.png" alt="">
+        <figcaption class="pie_img" type="button" onclick="miFuncion1()">Ver horarios</figcaption>
+        </figure>
+    </div>
+
+    <div class="activities" id="actividades">
+        <figure class="pie">
+            <img src="/GRAFICAS/BOXEO.png" id="foto3" alt="">
+            <figcaption class="pie_img" onclick="miFuncion2()">Ver horarios</figcaption>
+        </figure>
+    </div>
+    <div class="activities">
+        <figure class="pie">
+            <img id="foto4" src="/GRAFICAS/MMA.png" alt="">
+            <figcaption class="pie_img" type="button" onclick="miFuncion3()">Ver horarios</figcaption>
+        </figure>
+    </div>
+    <div class="activities">
+        <figure class="pie">
+            <img id="foto5" src="/GRAFICAS/hit-funcional.png" alt="">
+            <figcaption class="pie_img" type="button" onclick="miFuncion4()">Ver horarios</figcaption>
+        </figure>
+    </div>
+    <div class="activities">
+        <figure class="pie">
+            <img id="foto" src="/GRAFICAS/nutricion.png" alt="">
+            <figcaption class="pie_img" type="button"><a id="turnos" href="https://s03eec01647436007.whataform.com/f/ce285b3a8db6cf" target="blank">reservar</a></figcaption>
+            
+        </figure>
+    </div>
+
+<script src="cambioimg.js"></script>
+
+    <!-- <div class="container-slider">
+        <div class="slider" id="slider">
+            <div class=
+            "slider__section">
+                <img src="MUAYTHAI.png" alt="" class="slider__img">
+               
+            
+            </div>
+            <div class="slider__section">
+                <img src="BOXEO.png" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="MUSCULACION.png" alt="" class="slider__img">
+            </div>
+        </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+            <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+            <footer class="horarios"> <a href="">Dias y horarios</a></footer>     
+    </div>
+    <script src="slider.js"></script> -->
+
+
+</section>
+
+
+<section class="aboutus" id="aboutus">
+    <div class="nosotros"> <b> Sobre Nosotros</b></div>
+    
+
+
+<div class="historia"> Desde el principio, Siam creció bajo los conceptos de equipo.
+    Nacido en el 2012 en Córdoba, hoy, 10 años después, ese concepto esta cada vez más arraigado en nuestros Siameses.
+    Buscando siempre la excelencia deportiva en nuestros competidores, y mejorar la salud de quienes asisten con fines deportivos.
+    Siempre a base de experiencia y capacitación.</div>
+
+    <div class="tarjeta"><img src="tarjeta profe.png" alt=""></div>
+
+</section>
+
+<section class="ubicacion">
+    <div class="de"><h2 class="de">¿Dónde estamos?</h2></div>
+    <div id="map"></div>
+    <script src="script.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAf2kDrVM5OMsscDRDVu6b7vAJah4fiCDk&callback=initMap">
+  </script>
+</section>
+
+<script src="https://sdk.mercadopago.com/js/v2"></script>
+
+
+
+<section class="contacto">
+<a href="https://wa.link/57ltko" class="btn-wsp" target="icon-whatsapp"><i class="fab fa-whatsapp fa-5x"></i></a>
+        
+        
+<a href="https://www.instagram.com/siam.vr/?hl=es-la" class="btn-ins" target="blank"><i id="btn-ins" class="fab fa-instagram fa-2x"></i></a>
+
+</section>
+
+</body>
+</html>
